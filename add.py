@@ -4,3 +4,6 @@ def add_qiming(x, y):
 class Add:
     def apply(self, x, y):
         return x + y
+    
+    def str(self):
+        return 'add'
